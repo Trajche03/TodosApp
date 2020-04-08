@@ -15,7 +15,7 @@ list.innerHTML += html
 addForm.addEventListener('submit', e => {
 e.preventDefault();
 
-
+//sadsadasfsagfasga 
 let todo = addForm.querySelector('input[name="vrednost"]').value.trim()
 
 if(todo.length) {
