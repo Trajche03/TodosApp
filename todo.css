@@ -1,0 +1,29 @@
+
+.container {
+max-width: 500px;
+}
+
+input[type=text],
+input[type=text]:focus{
+    color:white;
+    border: none;
+    background: rgba(0, 0, 0, 0.2);
+    max-width: 400px;
+}
+
+.todos li {
+background: rgb(16, 96, 97);
+}
+
+.delete {
+    cursor: pointer;
+}
+
+.tr {
+    background: cadetblue;
+}
+
+.trajce {
+
+    width: 400px;
+}

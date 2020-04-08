@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="todo.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="//use.fontawesome.com/releases/v5.0.7/css/all.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <title>Todos</title>
+</head>
+
+<body class="tr">
+
+    <div class="container">
+
+        <header class="text-center text-light my-4">
+            <h1 class="mb-4">Todo List</h1>
+            <form class="search">
+                <input class="form-control m-auto" type="text" name="search" placeholder="search todo's" />
+            </form>
+        </header>
+
+        <ul class="list-group  todos mx-auto text-light trajce ">
+            <li class="list-group-item d-flex justify-content-between align-items center ">
+                <span>play with Dimitar</span>
+                <i class="fas fa-trash delete"></i>
+            </li>
+            <li class="list-group-item d-flex justify-content-between align-items center ">
+                <span>watch tutorials</span>
+                <i class="fas fa-trash delete"></i>
+            </li>
+
+            <li class="list-group-item d-flex justify-content-between align-items center ">
+                <span>make a lunch</span>
+                <i class="fas fa-trash delete"></i>
+            </li>
+        </ul>
+
+            <form class="addClass text-center my-4">
+                <label class="text-light">Add a new todo..</label>
+                <input class="form-control m-auto" type="text" name="vrednost"/>
+            </form>
+
+
+    </div>
+
+
+    <script src="todo.js"></script>
+
+</body>
+
+</html>
